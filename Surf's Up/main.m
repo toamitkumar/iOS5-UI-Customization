@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import "Surf_s_UpAppDelegate.h"
+#import "SurfsUpAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     int retVal = 0;
     @autoreleasepool {
-        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([Surf_s_UpAppDelegate class]));
+        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SurfsUpAppDelegate class]));
     }
     return retVal;
 }
